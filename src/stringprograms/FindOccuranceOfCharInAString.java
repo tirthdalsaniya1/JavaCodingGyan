@@ -2,7 +2,7 @@ package stringprograms;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindOccuranceOfChar {
+public class FindOccuranceOfCharInAString {
 	public static void main(String[] args) {
 
 		String str = "MynameisTirth";

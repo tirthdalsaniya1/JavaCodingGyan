@@ -1,6 +1,6 @@
 package stringprograms;
 
-public class ReverseStringBasic3 {
+public class ReverseAnyTwoCharactersInAString {
 
 	public static String reverseTwoCharacters(String str, int index1, int index2) {
 		if (str == null || str.length() < Math.max(index1, index2) + 2 || index1 < 0 || index2 < 0) {

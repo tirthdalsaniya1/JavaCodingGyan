@@ -15,13 +15,14 @@ public class FibonacciWithoutRecursion {
 		// Use first two number as a variable
 		int n1 = 0, n2 = 1;
 
-		// Use N as a variable to provide count of number
+        // Use N to define how many numbers in the series you want to generate
 		int N = 10;
 
 		// Print first two number 0 and 1
 		System.out.print(n1 + " " + n2);
-
-		for (int i = 0; i < N; i++) {
+		
+        // Loop to generate the next (N - 2) numbers since first two are already printed
+		for (int i = 2; i < N; i++) {
 			int n3 = n1 + n2;
 
 			// Print next 8 digits

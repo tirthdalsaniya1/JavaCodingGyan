@@ -42,8 +42,8 @@ public class PalindromeSmallestAndLargest {
 			}
 
 		}
-		System.out.println(" is "+ smallest);
-		System.out.println(" is "+ largest);
+		System.out.println("smallest"+" is "+ smallest);
+		System.out.println("largest"+" is "+ largest);
 
 	}
 

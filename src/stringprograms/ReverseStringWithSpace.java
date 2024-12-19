@@ -1,5 +1,5 @@
 package stringprograms;
-public class ReverseStringBasic2 {
+public class ReverseStringWithSpace {
 
 	public static void main(String[] args) {
 		// Reverse a given String

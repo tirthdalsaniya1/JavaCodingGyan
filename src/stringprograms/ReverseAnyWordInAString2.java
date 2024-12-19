@@ -1,6 +1,6 @@
 package stringprograms;
 
-public class ReverseStringBasic4 {
+public class ReverseAnyWordInAString2 {
 
 	    public static String reverseParticularCharacters(String str, int startIndex, int endIndex) {
 	        if (str == null || startIndex < 0 || endIndex >= str.length()) {

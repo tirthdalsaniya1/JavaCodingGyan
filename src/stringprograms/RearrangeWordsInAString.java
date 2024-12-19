@@ -1,6 +1,6 @@
 package stringprograms;
 
-public class ReverseStringBasic5 {
+public class RearrangeWordsInAString {
 
 	public static void main(String[] args) {
 		String input = "My name is Yogesh";

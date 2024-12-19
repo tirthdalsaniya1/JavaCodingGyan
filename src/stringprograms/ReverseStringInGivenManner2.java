@@ -4,7 +4,8 @@ public class ReverseStringInGivenManner2 {
 
 	public static void main(String[] args) {
 		/*
-		 * Reverse Given String Input > My name is Tirth Output > htriT si eman yM
+		 * Reverse Given String Input > My name is Tirth 
+		 * Output > htriT si eman yM
 		 */
 
 		String input = "My name is Tirth";
@@ -17,9 +18,10 @@ public class ReverseStringInGivenManner2 {
 			for (int j = words[i].length() - 1; j >= 0; j--) {
 				reversed.append(words[i].charAt(j));
 			}
-			if (i != 0) {
+			if(i!=0) {
 				reversed.append(" ");
 			}
+			
 		}
 		System.out.println("Output: " + reversed);
 		System.out.println("input length " + input.length());

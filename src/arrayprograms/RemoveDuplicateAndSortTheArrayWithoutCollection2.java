@@ -1,8 +1,8 @@
-package arrayprogramstpoint;
+package arrayprograms;
 
 import java.util.Arrays;
 
-public class test {
+public class RemoveDuplicateAndSortTheArrayWithoutCollection2 {
 
 	public static void main(String[] args) {
 		int[] a = { 1, 2, 1, 2, 9, 8, 9, 6, 5, 4, 11 };
@@ -26,11 +26,9 @@ public class test {
 			if (a[j] != a[i]) {
 				j++;
 				a[j] = a[i];
-				
+
 			}
 		}
-
-	//	a[j++] = a[a.length - 1];
 
 		for (int i = 0; i <= j; i++) {
 			System.out.print(a[i]);
